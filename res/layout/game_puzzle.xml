@@ -1,0 +1,47 @@
+ <!--
+ -->
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:tools="http://schemas.android.com/tools"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:background="@color/background"
+     android:gravity="center"
+     android:orientation="vertical"
+     android:padding="30dip" >
+
+     <TextView
+         android:id="@+id/textview_Question"
+         android:layout_width="match_parent"
+         android:layout_height="94dp"
+         android:layout_gravity="center_horizontal"
+         android:text="@string/hello_world1"
+         tools:context=".GamePuzzleActivity" />
+
+     <Button
+      android:id="@+id/button_AnswerOne"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/button_AnswerOne" />
+      
+     <Button
+      android:id="@+id/button_AnswerTwo"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/button_AnswerTwo" />
+      <Button
+      android:id="@+id/button_AnswerThree"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/button_AnswerThree" />
+      <Button
+      android:id="@+id/button_AnswerFour"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/button_AnswerFour" />   
+            <Button
+      android:id="@+id/button_YourScore"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/button_YourScore" />      
+
+</LinearLayout>
